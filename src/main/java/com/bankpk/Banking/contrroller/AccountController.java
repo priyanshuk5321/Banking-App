@@ -12,15 +12,15 @@ import java.util.Map;
 
 @RestController
 @RequestMapping("/api/accounts")
-public class AccountContrroller {
+public class AccountController {
 
     private AccountService accountService;
 
-    public AccountContrroller(AccountService accountService) {
+    public AccountController(AccountService accountService) {
         this.accountService = accountService;
     }
 
-    //add acount to rest api
+    //add account to rest api
     @PostMapping("/create")
     public ResponseEntity<AccountDto> addAccount(@RequestBody AccountDto accountDto){
         return new ResponseEntity<>(accountService.createAccount(accountDto), HttpStatus.CREATED);
