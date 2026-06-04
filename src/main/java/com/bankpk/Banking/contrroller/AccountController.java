@@ -1,4 +1,4 @@
-package com.bankpk.Banking.controller;
+package com.bankpk.Banking.contrroller;
 
 
 import com.bankpk.Banking.dto.AccountDto;
