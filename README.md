@@ -9,7 +9,6 @@ A RESTful Banking Management System developed using **Java 17**, **Spring Boot**
 - Spring Data JPA (Hibernate)
 - MySQL
 - Maven
-- Swagger UI (OpenAPI)
 - IntelliJ IDEA
 - Postman
 
@@ -22,7 +21,6 @@ A RESTful Banking Management System developed using **Java 17**, **Spring Boot**
 - Delete Bank Account
 - RESTful APIs
 - MySQL Database Integration
-- Swagger API Documentation
 
 ## 📂 Project Structure
 
@@ -88,14 +86,6 @@ mvn spring-boot:run
 
 Or run the `BankApplication.java` file from IntelliJ IDEA.
 
-## 📖 Swagger UI
-
-After starting the application, open:
-
-```
-http://localhost:8080/swagger-ui/index.html
-```
-
 ## 📡 API Endpoints
 
 | Method | Endpoint | Description |
@@ -111,7 +101,6 @@ http://localhost:8080/swagger-ui/index.html
 The REST APIs were tested using:
 
 - Postman
-- Swagger UI
 
 ## 📌 Future Improvements
 
