@@ -1,7 +1,7 @@
 # Banking Management System - Backend
 
 A RESTful Banking Management System developed using **Java 17**, **Spring Boot**, **Spring Data JPA**, and **MySQL**. The application provides APIs to manage bank accounts, including account creation, deposits, withdrawals, account details, and account deletion.
-
+ 
 ## 🚀 Technologies Used
 
 - Java 17
